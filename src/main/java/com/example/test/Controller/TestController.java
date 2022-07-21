@@ -17,7 +17,7 @@ public class TestController {
         List<BillType> list = new ArrayList<>();
         List<BillType> list2 = new ArrayList<>();
         for (int i = 0; i< 5; i++){
-            BillType billType = new BillType("12675373759","Caffrey");
+            BillType billType = new BillType("13759","Caffrey");
             list.add(billType);
         }
         for (int i = 0; i< 5; i++){
