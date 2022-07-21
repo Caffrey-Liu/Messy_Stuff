@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
-
+8
 @RestController
 @RequestMapping("/1")
 public class TestController {
@@ -17,7 +17,7 @@ public class TestController {
         List<BillType> list = new ArrayList<>();
         List<BillType> list2 = new ArrayList<>();
         for (int i = 0; i< 5; i++){
-            BillType billType = new BillType("123456789","Caffrey");
+            BillType billType = new BillType("1269","Caffrey");
             list.add(billType);
         }
         for (int i = 0; i< 5; i++){
