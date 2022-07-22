@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
-8
 @RestController
 @RequestMapping("/1")
 public class TestController {
